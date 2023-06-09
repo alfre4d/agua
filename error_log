@@ -1,0 +1,17 @@
+[13-Sep-2021 17:38:47 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:38:57 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:00 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:08 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:12 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:37 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:43 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:39:47 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:40:27 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:40:41 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:41:51 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:42:27 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:42:46 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[13-Sep-2021 17:42:50 America/Guatemala] PHP Fatal error:  Call to undefined method Api::validate_auth_key() in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 9
+[16-Sep-2021 23:01:16 America/Guatemala] PHP Fatal error:  Call to a member function post() on null in /home/abarkfuc/public_html/v9/application/controllers/Api.php on line 1311
+[21-Sep-2021 14:54:52 America/Guatemala] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::getInfo() in /home/abarkfuc/public_html/v9/application/views/backend/parent/group_message_read.php on line 123
+[21-Sep-2021 14:55:13 America/Guatemala] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::getInfo() in /home/abarkfuc/public_html/v9/application/views/backend/parent/group_message_read.php on line 123

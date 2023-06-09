@@ -1,0 +1,186 @@
+https://mayansource.dev/agua/
+pagina para formatear html
+
+CPANEL
+https://mayansource.dev:2083/
+msdev
+_jjZ;jG_PkPp
+
+FTP
+FTP Username: prac@mayansource.dev
+FTP server: ftp.mayansource.dev
+FTP & explicit FTPS port:  21
+YS%HTa+a+kUM
+
+
+
+
+               if(data != '[]')
+               {
+                  $('#submit').prop('disabled', false);
+                  var json = JSON.parse(data);
+                  var html = '';
+                  $("#contenedor").hide(500);
+
+               }
+               else
+               {
+                  $('#submit').prop('disabled', true);
+                  $("#contenedor").show(500);
+                  $('#respuesta').html(html);
+                  $('#respuesta').html("<li>No coincide la contraseña</li>");       
+               }
+               if(in_pass == ''){
+                  $('#submit').prop('disabled', false);
+                  $("#contenedor").hide(500);
+                  $('#respuesta').html(html);
+               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            if($row->type == 2)
+            {
+                if($row->auth_key == 'Activo')
+                {
+                    $this->session->set_userdata('accountant_login', '1');
+                    $this->session->set_userdata('accountant_id', $row->admin_id);
+                    $this->session->set_userdata('login_user_id', $row->admin_id);
+                    $this->session->set_userdata('name', $row->first_name);
+                    $this->session->set_userdata('login_type', 'accountant');
+                    redirect(base_url() . 'accountant/panel/', 'refresh'); 
+                }else
+                {
+                    $_SESSION['item'] = '¡Tu usuario esta inactivo! ';
+                    $this->session->mark_as_flash('item','1');
+                    //$this->session->set_flashdata('error', '1');
+                    redirect(base_url(), 'refresh');   
+                }
+
+                   
+            }else{
+                $_SESSION['item'] = '¡Error en el usuario o contraseña! ';
+                $this->session->mark_as_flash('item','1');
+                //$this->session->set_flashdata('error', '1');
+                redirect(base_url(), 'refresh');    
+            }  
+
+
+
+
+<?php 
+                                                       $id = $row['admin_id'];
+
+                                                       if($row['status']=='Inactivo')
+                                                       {
+                                                            echo "<li><a>Prueba reactivar</a></li>";
+                                                       }
+                                                       else
+                                                       {
+                                                            echo "<li><a class='gk text-sm yl xb flex mt me' href=#0 onclick=eliminarAccount('$id')>Eliminar</a></li>";
+                                                       }
+
+                                                  ?>
+
+<li id="eliminar"><a class="gk text-sm yl xb flex mt me"  href="#0" onclick="eliminarAccount('<?php echo $id?>')" @click="open = false" @focus="open = true" @focusout="open = false">Eliminar/Desactivar</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+div = document.getElementById('content');
+                  div.style.display = 'none';}
+
+
+
+
+
+
+
+
+
+
+
+
+                        <script>
+                            function myrecaptcha(){
+                                var response = grecaptcha.getResponse();
+                                $('#button').prop('disabled', true); 
+                                if(response.length == 0){
+                                    
+                                    $('#respuesta').html("<li>captcha no verificado</li>");
+                                     
+                                }
+                                else{
+                                    alert("captcha verificado");
+                                }
+                            }
+                        </script>
+
+
+
+
+
+
+         if($var != ''){
+            $counts = $this->db->query("SELECT * FROM admin WHERE type=2 AND first_name like '%" . $var . "%' OR last_name like '%" . $var . "%'")->result_array();
+            if($conts==false){
+               echo '';
+            }
+         }
+         else
+         {
+            $counts = $this->crud-> get_accountants($this->session->userdata('name'));
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
